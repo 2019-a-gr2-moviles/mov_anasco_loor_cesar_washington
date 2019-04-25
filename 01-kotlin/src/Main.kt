@@ -185,4 +185,79 @@ fun sumarDosNumeros(numUno: Int, numDos: Int):Int {
 }
 
 
+class Usuario(val cedula: String){
+
+    public var nombre:String 0 ""
+    public var apellido: String;
+
+    constructor(cedulaM: String,apellido:String):this(cedulaM){
+        this.apellido = apellido
+    }
+
+}
+
+class UsuarioKT(public var nombre:String,
+                public var apellido: String,
+                private var id:Int,
+                protected var id:Int ) {
+
+    init{
+
+    }
+
+    public fun hola():Unit{
+        return this.apellido
+
+    private fun hola2() {
+
+    }
+    private fun hola2() {
+
+    }
+
+    companion object {
+
+            //dentro de los bloques estan los estaticos
+
+            val gravedad = 10.15
+            fun correr(){
+                println("Estoy corriendo en $gravedad")
+            }
+        }
+
+    }
+}
+
+
+fun a(){
+    var adrian = UsuarioKT("a", "b",3,2)
+    adrian.nombre = "asdasd"
+}
+//
+val adrian = UsuarioKT("a", "b")
+
+
+class BaseDeDatos{
+    companion object {
+        val usuarios = arrayListOf(1,2,3)
+
+    }
+}
+
+
+
+fun aa() {
+    UsuarioKT.gravedad
+    UsuarioKT.correr()
+}
+
+fun presley(requerido: Int, opcional: Int = 1, nulo: UsuarioKT?){
+    null.nombre
+}
+
+fun cddd(){
+    presley(requerido = 1, nulo = 0) //Named Parameters
+    presley(1,2,0)
+    presley(1,1,null)
+}
 
