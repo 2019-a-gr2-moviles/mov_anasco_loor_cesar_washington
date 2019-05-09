@@ -1,14 +1,16 @@
-[
+
     {
       "id": "101",
-      "nombre": "Cesar"
+      "nombre": "Cesar",
+      "nacionalidad": "Ecuador"
     },
     {
       "id": "102",
-      "nombre": "Daniel"
+      "nombre": "Leo",
+      "nacionalidad": "Peru"
     },
     {
       "id": "103",
-      "nombre": "Byron"
+      "nombre": "Byron",
+      "nacionalidad": "Chile"
     }
-]

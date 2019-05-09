@@ -11,7 +11,7 @@
 			android:text="Nuevo Entrenador"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:id="@+id/button3"
+			android:id="@+id/botonNuevoEntrenador"
 			app:layout_constraintStart_toStartOf="parent"
 			android:layout_marginLeft="123dp"
 			android:layout_marginStart="123dp"
@@ -22,10 +22,11 @@
 			app:layout_constraintBottom_toBottomOf="parent"/>
 
 	<ListView
-			android:id="@+id/ListViewEntrenador"
 			android:layout_width="395dp"
 			android:layout_height="613dp"
 			tools:layout_editor_absoluteY="8dp"
-			tools:layout_editor_absoluteX="8dp"/>
+			tools:layout_editor_absoluteX="8dp"
+			android:id="@+id/listViewEntrenador"/>
+
 
 </android.support.constraint.ConstraintLayout>
