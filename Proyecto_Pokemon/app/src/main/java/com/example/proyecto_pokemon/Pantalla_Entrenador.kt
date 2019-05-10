@@ -13,14 +13,17 @@ import java.io.InputStream
 class Pantalla_Entrenador : AppCompatActivity() {
 
     var arrListaEntrenador = arrayListOf<String>()
-    var arrListaNacionalidad = arrayListOf<String>()
-    var element:String? = null
+
+    object index {
+        var indexSeleccionado:Int? = null
+    }
 
     private var stringBuilder:StringBuilder?=null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pantalla__entrenador)
+
         listarJsonArray()
         
         botonNuevoEntrenador.setOnClickListener {
@@ -29,8 +32,7 @@ class Pantalla_Entrenador : AppCompatActivity() {
         }
 
         listViewEntrenador.setOnItemClickListener { parent, view, position, id ->
-            element = listViewEntrenador.selectedItem.toString()
-                //adapter.getItemAtPosition(position) // The item that was clicked
+            index.indexSeleccionado = listViewEntrenador.getItemIdAtPosition(position).toString().toInt()
             val intent = Intent(this, AccionEntrenador::class.java)
             startActivity(intent)
         }
@@ -51,20 +53,13 @@ class Pantalla_Entrenador : AppCompatActivity() {
             for (i in 0..jsonarr.length()-1) {
                 var jsonobj = jsonarr.getJSONObject(i)
                 arrListaEntrenador.add(jsonobj.getString("nombre"))
-                arrListaNacionalidad.add(jsonobj.getString("nacionalidad"))
             }
-            var adpt = ArrayAdapter(this, android.R.layout.simple_list_item_2,arrListaEntrenador)
-            //adpt = ArrayAdapter(this, android.R.layout.simple_list_item_2,arrListaNacionalidad)
+            var adpt = ArrayAdapter(this, android.R.layout.simple_list_item_1,arrListaEntrenador)
             listViewEntrenador.adapter = adpt
         }
         catch (e: IOException) {
             println(e.toString())
         }
     }
-
-
-
-
-
 
 }

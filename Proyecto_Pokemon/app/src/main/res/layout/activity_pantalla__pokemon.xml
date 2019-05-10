@@ -9,10 +9,22 @@
 
 	<Button
 			android:text="Nuevo Pokemon"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			tools:layout_editor_absoluteY="667dp"
-			tools:layout_editor_absoluteX="253dp"
-			android:id="@+id/button2"
-			style="@android:style/Widget.Material.Light.Button.Borderless.Colored"/>
+			android:layout_width="142dp"
+			android:layout_height="48dp"
+			android:id="@+id/botonNuevoPokemon"
+			app:layout_constraintStart_toStartOf="parent"
+			android:layout_marginLeft="253dp"
+			android:layout_marginStart="253dp"
+			app:layout_constraintEnd_toEndOf="parent"
+			android:layout_marginEnd="16dp"
+			android:layout_marginRight="16dp"
+			android:layout_marginBottom="16dp"
+			app:layout_constraintBottom_toBottomOf="parent"/>
+
+	<ListView
+			android:layout_width="395dp"
+			android:layout_height="651dp"
+			tools:layout_editor_absoluteY="8dp"
+			tools:layout_editor_absoluteX="8dp"
+			android:id="@+id/listViewPokemon"/>
 </android.support.constraint.ConstraintLayout>
