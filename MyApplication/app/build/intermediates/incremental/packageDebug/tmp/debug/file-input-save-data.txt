@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu May 16 15:48:00 ECT 2019
+0.baseType=DIRECTORY
+0.base=/Users/usrdel/Documents/GitHub/mov_anasco_loor_cesar_washington/MyApplication/app/build/intermediates/dex/debug/mergeDexDebug/out
+0.path=classes.dex
+0.set=DEX
+count=1

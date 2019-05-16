@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/usrdel/Documents/GitHub/mov_anasco_loor_cesar_washington/MyApplication/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/usrdel/Documents/GitHub/mov_anasco_loor_cesar_washington/MyApplication/app/src/main/res/values-land/colors.xml",
+                    "from": {
+                        "startLines": "5,4,2,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "199,153,55,102",
+                        "endColumns": "43,45,46,50",
+                        "endOffsets": "238,194,97,148"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,99,145,192",
+                        "endColumns": "43,45,46,50",
+                        "endOffsets": "94,140,187,238"
+                    }
+                },
+                {
+                    "source": "/Users/usrdel/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/31928a52de85efed884b5daf5cc0c809/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    },
+                    "to": {
+                        "startLines": "6,7,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "243,313,384",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "308,379,447"
+                    }
+                },
+                {
+                    "source": "/Users/usrdel/Documents/GitHub/mov_anasco_loor_cesar_washington/MyApplication/app/src/main/res/values-land/strings.xml",
+                    "from": {
+                        "startLines": "3,2,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "107,55,155",
+                        "endColumns": "47,51,42",
+                        "endOffsets": "150,102,193"
+                    },
+                    "to": {
+                        "startLines": "9,10,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "452,500,552",
+                        "endColumns": "47,51,42",
+                        "endOffsets": "495,547,590"
+                    }
+                },
+                {
+                    "source": "/Users/usrdel/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/b8f89e2960fd32cbc6877f95ced44ad6/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "595",
+                        "endLines": "15",
+                        "endColumns": "10",
+                        "endOffsets": "762"
+                    }
+                }
+            ]
+        }
+    ]
+}

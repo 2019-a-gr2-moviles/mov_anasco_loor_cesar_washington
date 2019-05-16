@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/usrdel/Documents/GitHub/mov_anasco_loor_cesar_washington/MyApplication/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "/Users/usrdel/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/31928a52de85efed884b5daf5cc0c809/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                }
+            ]
+        }
+    ]
+}
