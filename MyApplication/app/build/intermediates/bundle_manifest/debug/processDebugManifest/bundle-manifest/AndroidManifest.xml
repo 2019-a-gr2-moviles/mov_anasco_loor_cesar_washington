@@ -19,6 +19,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.myapplication.Actividad_Dos" >
+            android:launchMode="singleTask"
         </activity>
         <activity
             android:name="com.example.myapplication.MainActivity"
