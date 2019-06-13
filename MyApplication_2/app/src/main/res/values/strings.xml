@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyApplication_2</string>
+    <string name="title_activity_adaptador_persona">AdaptadorPersona</string>
 </resources>
