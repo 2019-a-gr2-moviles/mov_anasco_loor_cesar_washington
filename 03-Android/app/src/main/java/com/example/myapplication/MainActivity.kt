@@ -25,6 +25,9 @@ class MainActivity : AppCompatActivity() {
         btn_recycler_view.setOnClickListener {
             irArecyclerView()
         }
+        btn_http.setOnClickListener {
+            irHttp()
+        }
     }
 
     fun irArecyclerView(){
@@ -69,6 +72,16 @@ class MainActivity : AppCompatActivity() {
 
         startActivity(intentExplicito)
 
+
+    }
+
+    fun irHttp() {
+        val intentExplicito = Intent(
+            this,
+            ConexionHttpActivity::class.java
+        )
+
+        startActivity(intentExplicito)
 
     }
 
